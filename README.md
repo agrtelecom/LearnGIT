@@ -12,7 +12,6 @@ Configure seu nome e email
 git config --local user.name "Seu_Nome_Aqui"
 git config --local user.email "seuemail@exemplo.com"
 
-
 Edite ao menos um arquivo e crie um ponto no tempo (para posterior recuperação)
 git add nomedoarquivo
 git commit -m "Digite uma mensagem que descreva esse ponto na história do arquivo/projeto"
