@@ -38,3 +38,11 @@ Agora vamos começar a criar branches, por exemplo, para adicionar novas funcion
 git branch nomeDaBranch
 git checkout nomeDaBranch
 
+Além da modificação deste arquivo readme, também criei novo arquivo NovoArquivo.txt, com uma linha de texto.
+
+LEMBRE-SE que é necessário adicionar os dois arquivos modificados para fazer um commit!
+
+git add README.md
+git add NovoArquivo.txt
+git commit -m "atualização do antigo e criação do novo"
+
