@@ -31,3 +31,10 @@ git show
 
 Para verificar uma modificação específica
 git show IDENTIFICAÇÃO DO COMMIT
+
+Até aqui, tudo OK.
+Agora vamos começar a criar branches, por exemplo, para adicionar novas funcionalidades sem alterar a brach Master.
+
+git branch nomeDaBranch
+git checkout nomeDaBranch
+
