@@ -17,3 +17,17 @@ git commit -m "Digite uma mensagem que descreva esse ponto na história do arqui
 Mudei o autor e verifiquei a mudança com ...
 git log
 
+Verifique que o git só faz "track" de arquivos explicitamente adicionados...
+
+Após as mudanças realizadas, precisamos usar novamente a sequencia de comandos add + commit
+
+git add nomedoarquivo
+git commit -m "Digite uma mensagem que descreva esse ponto na história do arquivo/projeto"
+
+Para verificar as modificações
+git log
+E para detalhes da última modificação 
+git show
+
+Para verificar uma modificação específica
+git show IDENTIFICAÇÃO DO COMMIT
