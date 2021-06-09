@@ -46,6 +46,9 @@ LEMBRE-SE que é necessário adicionar os dois arquivos modificados para fazer u
   git add NovoArquivo.txt
   git commit -m "atualização do antigo e criação do novo"
 
+DICA: para adicionar todos os arquivos do diretório use
+  git add .
+  
 Se voltarmos para a master
   git checkout master
 vamos notar que o novo arquivo não existe lá. Experimente o comando 'ls'! O arquivo não existe.
@@ -74,4 +77,17 @@ TAmbém existem outros repositórios git na nuvem. bitbucket
 
 Depois crie um repositório e conecte o git local ao git remoto
   git remote add origin https://github.com/agrtelecom/LearnGIT.git
+
+Verifique com 
+  git remote -v
+
+Para "empurrar" seu conteúdo para o repositório na nuvem
+  git push
+
+Como é a prmeira vez, é preciso criar a branch master ...
+  git push -u origin master
+
+
+
+  git push --set-upstream origin master
 
