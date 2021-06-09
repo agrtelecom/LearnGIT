@@ -46,3 +46,23 @@ git add README.md
 git add NovoArquivo.txt
 git commit -m "atualização do antigo e criação do novo"
 
+Se voltarmos para a master
+git checkout master
+vamos notar que o novo arquivo não existe lá. Experimente o comando 'ls'! O arquivo não existe.
+e quando voltamos para a primeiraBranche, verificamos que o arquivo volta a ser exibido.
+
+Após analisar os códigos, queremos trazer as modificações da branch de edição para o master.
+
+Voltamos para a master..
+git checkout master
+
+E fazemos o merge...
+git merge  nomeDaBranch
+
+
+Depois de usada, a primeiraBranch pode ser apagada
+git branch (lista as branches)
+
+git branch -D primeiraBranch
+
+git branch (lista as branches)
