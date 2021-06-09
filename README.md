@@ -1,12 +1,10 @@
 # GIT E GITHUB
-
-Aprendendo ...
+Baseado no vídeo (muito bom) https://www.youtube.com/watch?v=2alg7MQ6_sI
 
 ### Instalação
 Visite o site oficial e instale o git na sua máquina
 
 ### Utilização
-
 Vá para o diretório do projeto e inicie um repositório
 git init
 
@@ -20,7 +18,6 @@ git log
 Verifique que o git só faz "track" de arquivos explicitamente adicionados...
 
 Após as mudanças realizadas, precisamos usar novamente a sequencia de comandos add + commit
-
 git add nomedoarquivo
 git commit -m "Digite uma mensagem que descreva esse ponto na história do arquivo/projeto"
 
@@ -34,7 +31,6 @@ git show IDENTIFICAÇÃO DO COMMIT
 
 Até aqui, tudo OK.
 Agora vamos começar a criar branches, por exemplo, para adicionar novas funcionalidades sem alterar a brach Master.
-
 git branch nomeDaBranch
 git checkout nomeDaBranch
 
@@ -97,3 +93,11 @@ git push
 O que é isso?
   git push --set-upstream origin master
 
+### Como trazr um projeto da nuvem para trabalhar localmente?
+
+Você precisa clonar o repositório
+git clone http://ENDEREÇO.git
+
+
+Ainda tem mais instruções a partir deste ponto que eu não coloquei aqui.. 
+Assista ao vídeo novamente.
